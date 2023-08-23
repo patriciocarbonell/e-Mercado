@@ -12,23 +12,25 @@
 </head>
 
 <body>
-
-  <!-- Se agrega el formulario del login -->
   <form id="login-form">
-    <img float src="img/emercado.png">
-    <h2>Inicie sesión aquí</h2>
-    
-    <div class="divInput">
-        <input type="email" id="correo" name="email" placeholder="Email" required>
+    <img src="img/login.png">
+    <h2>Inicie sesión aqui</h2>
+  
+  <div class="divInput">
+    <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" name="email" placeholder="Email" required>
+        <label id="labelEmail" for="floatingInput">Correo Electronico</label>
     </div>
 
-    <div class="divInput">
-        <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" name="contraseña" placeholder="Contraseña" required>
+        <label id="labelPasword" for="floatingPassword">Contraseña</label>
     </div>
+  </div>
 
     <a href="register.html" target="_blank">¿No estás registrado? Regístrate aquí</a>
 
-    <br><br>
+    <br>
 
     <button id="buttonLogin" type="submit">Ingresar</button>
 
