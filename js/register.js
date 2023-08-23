@@ -1,8 +1,7 @@
-const formulario = document.getElementById("formulario")
+const formulario = document.getElementById("formulario");
 
-formulario.addEventListener("submit", function(event){
-    
-    event.preventDefault()
+formulario.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-    window.location.href="index.html"
-})
+  window.location.href = "index.html";
+});

@@ -1,67 +1,67 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 99.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 99.5vh;
 }
 
 img {
-    height: 9em;
+  height: 9em;
 }
 
 h2 {
-    font-size: x-large;
+  font-size: x-large;
 }
 
-.divInput{
-    border: 0.175em solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+.divInput {
+  border: 0.175em solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 #divCheckBox {
-    font-size:medium;
-    color: #ffaa33;
+  font-size: medium;
+  color: #ffaa33;
 }
 
 .form-floating input {
-    border-radius: 0.25em;
-    border: 0.1em solid #ccc;
-    padding: 0.5em 1em;
-    text-align: center;
+  border-radius: 0.25em;
+  border: 0.1em solid #ccc;
+  padding: 0.5em 1em;
+  text-align: center;
 }
 
 .form-floating input:focus {
-    outline: none;
-    text-align: center;
+  outline: none;
+  text-align: center;
 }
 
-.form-floating{
-    margin-top: 0.3em;
+.form-floating {
+  margin-top: 0.3em;
 }
 
 input::placeholder {
-    text-align: center;
-    font-size: medium;
-    color: black;
-  }
-
-.checkBtn {
-    margin-top: 0.5em;
-    color: #ff9500;
+  text-align: center;
+  font-size: medium;
+  color: black;
 }
 
-button{
-    border-radius: 0.25em;
-    padding: 1em 3em;
-    background-color: #ffa72c;
-    font-weight: bold;
-    margin-bottom: 2em;
-    margin-top: 1em;
-    margin-left: 5em;
+.checkBtn {
+  margin-top: 0.5em;
+  color: #ff9500;
+}
+
+button {
+  border-radius: 0.25em;
+  padding: 1em 3em;
+  background-color: #ffa72c;
+  font-weight: bold;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-left: 5em;
 }
