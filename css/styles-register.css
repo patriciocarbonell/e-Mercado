@@ -3,65 +3,62 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 99.5vh;
+  height: 100vh;
 }
 
 img {
-  height: 9em;
+  height: 7.5em;
 }
 
-h2 {
-  font-size: x-large;
-}
-
-.divInput {
+form {
   border: 0.175em solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
-
-#divCheckBox {
-  font-size: medium;
-  color: #ffaa33;
+  border: 0.175em solid black;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.6em;
 }
 
 .form-floating input {
   border-radius: 0.25em;
   border: 0.1em solid #ccc;
-  padding: 0.5em 1em;
   text-align: center;
 }
 
-.form-floating input:focus {
-  outline: none;
-  text-align: center;
-}
 
 .form-floating {
-  margin-top: 0.3em;
+  padding: 0.2em;
 }
 
-input::placeholder {
-  text-align: center;
-  font-size: medium;
-  color: black;
-}
-
-.checkBtn {
-  margin-top: 0.5em;
-  color: #ff9500;
+.checkbox {
+  font-size: small;
+  color: #ff9807;
 }
 
 button {
   border-radius: 0.25em;
-  padding: 1em 3em;
+  padding: 0.4em 2em;
   background-color: #ffa72c;
   font-weight: bold;
-  margin-bottom: 2em;
-  margin-top: 1em;
-  margin-left: 5em;
+  margin-top: 0.5em;
+}
+
+#labelNameRegister {
+  margin-left: 5.5em;
+}
+
+#labelLastnameRegister {
+  margin-left: 5.5em;
+}
+
+#labelEmailRegister {
+  margin-left: 6.2em;
+}
+
+#labelPassword1 {
+  margin-left: 4.8em;
+}
+
+#labelPassword2 {
+  margin-left: 3.3em;
 }
